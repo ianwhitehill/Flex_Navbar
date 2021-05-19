@@ -1,15 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@600&display=swap');
+
 *
 {
-    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    font-family: 'KoHo', cursive;
+}
+
+body
+{
+    padding: 5px;
 }
 
 .nav
 {
     background-color: #333333;
     display: flex;
-    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100hv;
     height: 100px;
     border-radius: 5px;
+    margin: 0 auto;
 }
 
 .nav-title
@@ -20,18 +32,13 @@
 
 .nav-links
 {
-    display: flex;    
-}
-
-ul
-{
-    margin-top: 33px;
-    margin-left: 250px;
+    display: flex; 
+    gap: 1.5em;
+    margin-right: 45px;
 }
 
 li
 {
-    padding-left: 50px;
     list-style-type: none;
 }
 
