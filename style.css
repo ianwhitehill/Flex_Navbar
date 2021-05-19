@@ -1,0 +1,56 @@
+*
+{
+    font-family: cursive;
+}
+
+.nav
+{
+    background-color: #333333;
+    display: flex;
+    width: 1000px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.nav-title
+{
+    color: white;
+    margin-left: 45px;
+}
+
+.nav-links
+{
+    display: flex;    
+}
+
+ul
+{
+    margin-top: 33px;
+    margin-left: 250px;
+}
+
+li
+{
+    padding-left: 50px;
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.active
+{
+    color: white;
+    font-weight: bold;
+}
+
+.btn
+{
+    background-color: rgb(23, 162, 184);
+    color: white;
+    border-color: black;
+    box-shadow: 5px 5px black;
+}
